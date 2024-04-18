@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "crewai-demo"
+version = "0.1.0"
+description = ""
+authors = ["AhernShaia <gemgt4gtii@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<=3.13"
+crewai = "^0.28.8"
+crewai-tools = "^0.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
